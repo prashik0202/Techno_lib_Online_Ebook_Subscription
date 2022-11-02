@@ -306,8 +306,8 @@ router.get('/finalpay',function(req,res,next){
 // app.use(express.static('./public'));
 
 const instance = new Razorpay({ 
-	key_id: 'rzp_test_BnXcB5nzJ0Jahs', 
-	key_secret: 'vOh5vFZedLwifSRI1wASWJlP'  
+	key_id: '<enter key_id from razorpay>', 
+	key_secret: '<enter secret_key from razorpay>'  
 });
 
 router.get('/payamount', (req, res) => {
