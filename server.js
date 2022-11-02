@@ -14,7 +14,7 @@ var crypto = require('crypto');
 
 
 //database connection
-mongoose.connect('mongodb+srv://demo_user:demo_user@prash.ia1ix7g.mongodb.net/techlib?retryWrites=true&w=majority', {
+mongoose.connect('<your MONGODB URL>', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
