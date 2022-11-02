@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Techno lib
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/new.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,700'>
+    <link rel="stylesheet" href="./trial/style2.css">
+</head>
+
+<body>
+    <!-- MOBILE NAV -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home">
+                <i class="bx bxs-home"></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#2">
+                <i class='bx bxs-wink-smile'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#3">
+                <i class='bx bxs-food-menu'></i>
+            </a>
+        </div>
+        <div class="mb-nav-item">
+            <a href="#4">
+                <i class='bx bxs-comment-detail'></i>
+            </a>
+        </div>
+        
+    </div>
+    <!-- END MOBILE NAV -->
+    <!-- BACK TO TOP BTN -->
+    <a href="#home" class="back-to-top">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- END BACK TO TOP BTN -->
+    <!-- TOP NAVIGATION -->
+    <div class="nav">
+        <div class="book-wrap">
+            <a href="#home">
+                <div class="logo">
+                Techno lib
+                </div>
+            </a>
+            <div class="menu h-xs">
+                <a href="#home">
+                    <div class="book-item active">
+                        Home
+                    </div>
+                </a>
+                <a href="#about">
+                    <div class="book-item">
+                        About
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="book-item">
+                        Genre
+                    </div>
+                </a>
+                <a href="#testimonial">
+                    <div class="book-item">
+                        Testimonials
+                    </div>
+                </a>
+                <a href="#food-menu-section">
+                    <div class="book-item">
+                        Assistance
+                    </div>
+                </a>
+            </div>
+            
+            <!-- <div class="right-menu">
+                <div class="cart-btn">
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- END TOP NAVIGATION -->
+    <!-- SECTION HOME -->
+    <section id="home" class="fullheight align-items-center bg-img bg-img-fixed"
+        style="background-image: url(./img/home.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <div class="slogan">
+                        <h1 class="left-to-right play-on-scroll">
+                        Techno lib
+                        </h1>
+                        <p class="left-to-right play-on-scroll delay-2">
+                            The more that you read, the more things you will know..<br>The more that you learn, the more places you’ll go.
+                        </p>
+                        <div class="left-to-right play-on-scroll delay-4">
+                            
+                               <a href="/register"><button>Sign up</button></a> 
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION HOME -->
+    <!-- SECION ABOUT -->
+    <section class="about fullheight align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="img\1.jpg" alt=""
+                        class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12 align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3>
+                            <span class="primary-color">Just</span> because we're a library <span class="primary-color">doesn't</span>
+                            mean we're<span class="primary-color"> boring</span>
+                        </h3>
+                        <p>
+                          We inspire and enable independent<br>minds, providing resources, spaces <br>and technologies.What makes our<br>service great? Helping you find,<br>analyse, use and manage<br>knowledge - fast.
+                       </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECION ABOUT -->
+    <!-- FOOD MENU SECTION -->
+    
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu-section"
+        style="background-image: url(https://wallpaperaccess.com/full/5487841.jpg);">
+        <div class="container">
+            <div class="food-menu">
+                <h1>
+                    What will <span class="primary-color">you</span> Read today?
+                </h1>
+                <h2>
+                    Browse our selection of books in a variety of genres to pass the time while living<br>vicariously through the struggles and storylines of these novels
+                </h2>
+                <div class="food-category">     
+                </div>
+                <div class="child-page-listing">
+<style>
+    body {
+  padding: 20px;
+  font-family: sans-serif;
+}
+img {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+}
+h2 {
+  margin-bottom: .5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) { 
+  .location-title {
+    opacity: 1;
+  }
+  .location-image img {
+    filter: blur(2px);
+  }
+}
+</style>
+                    <div class="grid-container">
+                  
+                      <article id="3685" class="location-listing">
+                  
+                        <a class="location-title" href="#">
+                            Fantasy                       </a>
+                  
+                        <div class="location-image">
+                          <a href="#">
+                                          <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/san-fransisco-768x432.jpg" alt="san francisco">      </a>
+                  
+                        </div>
+                  
+                      </article>
+                  
+                      <article id="3688" class="location-listing">
+                  
+                        <a class="location-title" href="#">
+                            Sci-Fi                      </a>
+                  
+                        <div class="location-image">
+                          <a href="#">
+                                          <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/london-768x432.jpg" alt="london">    </a>
+                  
+                        </div>
+                  
+                      </article>
+                  
+                      <article id="3691" class="location-listing">
+                  
+                        <a class="location-title" href="#">
+                            Classics                      </a>
+                  
+                        <div class="location-image">
+                          <a href="#">
+                                          <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/new-york-768x432.jpg" alt="new york">    </a>
+                  
+                        </div>
+                  
+                      </article>
+                  
+                      <article id="3694" class="location-listing">
+                  
+                        <a class="location-title" href="#">
+                            Fairy Tale                      </a>
+                  
+                        <div class="location-image">
+                          <a href="#">
+                                          <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/cape-town-768x432.jpg" alt="cape town">  </a>
+                  
+                        </div>
+                  
+                      </article>
+                  
+                      <article id="3697" class="location-listing">
+                  
+                        <a class="location-title" href="#">
+                            Young Adult                  </a>
+                  
+                        <div class="location-image">
+                          <a href="#">
+                                          <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/beijing-768x432.jpg" alt="beijing">      </a>
+                  
+                        </div>
+                  
+                      </article>
+                  
+                      <article id="3700" class="location-listing">
+                  
+                        <a class="location-title" href="#">
+                                     Adventure                     </a>
+                  
+                        <div class="location-image">
+                          <a href="#">
+                                          <img width="300" height="169" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/paris-768x432.jpg" alt="paris">                  
+                                      </a>
+                        </div>
+                  
+                      </article>
+                  
+                    </div>
+                    <!-- end grid container -->
+                  
+                  </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- END FOOD MENU SECTION -->
+    <!-- TESTIMONIAL SECTION -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt corrupti
+                                dolores ratione voluptatibus quidem explicabo.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/close-up-portrait-cute-young-woman-holding-textbook-colored-pencils-posing-studio-isolated-pink_176532-9674.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem Ipsum Dolor
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="zoom play-on-scroll">
+                        <div class="review-wrap active">
+                            <div class="review-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                    molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt
+                                    corrupti
+                                    dolores ratione voluptatibus quidem explicabo.
+                                </p>
+                                <div class="review-img bg-img"
+                                    style="background-image: url(assets/michael-dam-mEZ3PoFGs_k-unsplash.jpg);">
+                                </div>
+                            </div>
+                            <div class="review-info">
+                                <h3>
+                                    Lorem Ipsum Dolor
+                                </h3>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-4">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, labore nisi non
+                                molestias, minus laboriosam nostrum impedit iure facilis odio unde quia ad sunt corrupti
+                                dolores ratione voluptatibus quidem explicabo.
+                            </p>
+                            <div class="review-img bg-img"
+                                style="background-image: url(assets/portrait-happy-young-man_171337-21716.jpg);">
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem Ipsum Dolor
+                            </h3>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TESTIMONIAL SECTION -->
+    <!-- FOOTER SECTION -->
+    <section class="footer bg-img" style="background-image: url(https://images6.alphacoders.com/346/thumb-1920-346199.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>
+                        Latest edition
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quas harum? Atque eius
+                        quaerat fuga sint molestiae illo corrupti vitae voluptatibus. Dicta rerum est delectus
+                        perspiciatis nemo nihil autem! Doloremque?</p>
+                    <br>
+                    <p>Email: kimjayden001@gmail.com</p>
+                    <p>Phone: +254712080741</p>
+                    <p>Website: foodycom.com</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>
+                        About us
+                    </h1>
+                    <br>
+                    <p>
+                        <a href="#">
+                            Authors
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Section
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Testimonials
+                        </a>
+                    </p>
+                    <p>
+                        <a href="#">
+                            Lorem ipsum
+                        </a>
+                    </p>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1>
+                        Subscribe & media
+                    </h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aspernatur doloremque rerum nam
+                        ullam obcaecati error asperiores temporibus quo eum eaque sed odio vitae accusantium, dolorem
+                        nihil molestiae deserunt maxime!</p>
+                    <div class="input-group">
+                        <input type="text" placeholder="Enter your email">
+                        <button>
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END FOOTER SECTION -->
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
